@@ -1,0 +1,18 @@
+package homeworkExercises.week3;
+
+public class TeacherCreditManager implements ICreditManager {
+
+	@Override
+	public void Calculate() {
+		//hesaplamalar
+		System.out.println("Öğretmen Kredisi hesaplandı.");
+		
+	}
+
+	@Override
+	public void Save() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

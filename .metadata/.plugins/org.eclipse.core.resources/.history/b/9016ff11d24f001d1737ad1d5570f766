@@ -1,0 +1,20 @@
+import business.CategoryManager;
+import dataAcces.CategoryDataAccess.HibernateCategoryDao;
+import entities.Category;
+import loggers.CategoryLogger;
+import loggers.ILogger;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Category category1 = new Category(1, "Frontend");
+		Category category2 = new Category(2, "Backend");
+		Category category3 = new Category(3, "Game Development");
+		
+		
+		
+
+	}
+
+}

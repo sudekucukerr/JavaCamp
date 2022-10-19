@@ -1,0 +1,6 @@
+package homeworkExercises.week3.Inheritance;
+
+public class CustomerManager extends PersonManager {
+
+	
+}

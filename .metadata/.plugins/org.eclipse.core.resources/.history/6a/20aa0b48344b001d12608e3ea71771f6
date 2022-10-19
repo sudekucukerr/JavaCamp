@@ -1,0 +1,10 @@
+package homeworkExercises.week3;
+
+public class CreditManager {
+	
+	public void Add() {
+		System.out.println("Hesaplandı");
+	}
+		
+
+}

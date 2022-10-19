@@ -1,0 +1,25 @@
+package homeworkExercises.week3;
+
+public class CreditManager {
+	
+	//SOLID araştır. Aşağıdaki yazım iş görür ama solid prensiplerine uygun değil.
+	
+	public void Calculate() {
+		
+		if(creditType == 1) { //esnaf
+			
+		}
+		
+		if(creditType == 1) { //öğretmen
+					
+				}
+		
+		System.out.println("Hesaplandı");
+	}
+	
+	public void Save(Customer customer) {
+		System.out.println("Kredi kaydedildi.");
+	}
+		
+
+}

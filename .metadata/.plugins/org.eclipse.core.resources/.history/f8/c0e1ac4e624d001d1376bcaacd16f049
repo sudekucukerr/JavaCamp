@@ -1,0 +1,10 @@
+
+public class OurWorker implements IWorkable {
+
+	@Override
+	public void work() {
+		
+		
+	}
+
+}

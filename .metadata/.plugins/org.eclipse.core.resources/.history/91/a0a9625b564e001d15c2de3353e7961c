@@ -1,0 +1,5 @@
+package dataAcces.TeacherDataAccess;
+
+public interface ITeacherDao {
+
+}

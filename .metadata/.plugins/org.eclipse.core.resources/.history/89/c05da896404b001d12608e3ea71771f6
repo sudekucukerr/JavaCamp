@@ -1,0 +1,20 @@
+package homeworkExercises.week3;
+
+public class CustomerManager {
+	
+	private Customer customer;
+	
+	public CustomerManager(Customer customer) {
+		this.customer = customer;
+	}
+	
+	public void Save() {
+		System.out.println("Müşteri kaydedildi: " + customer.id);
+	}
+
+	public void Delete() {
+		System.out.println("Müşteri silindi: " + customer.City);
+	}
+	
+	
+}

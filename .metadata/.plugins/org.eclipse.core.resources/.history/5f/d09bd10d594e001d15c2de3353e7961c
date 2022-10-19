@@ -1,0 +1,11 @@
+import loggers.ILogger;
+
+public class DataBaseLogger implements ILogger {
+
+	@Override
+	public void log(String data) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

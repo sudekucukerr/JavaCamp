@@ -1,0 +1,29 @@
+package homeworkExercises.week3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		CreditManager creditManager = new CreditManager(); //CreditManager creditManager kısmı stack'te tutulur. New'lediğimiz zaman Heap'e aktarılır.
+		creditManager.Calculate();
+		creditManager.Save(null);
+		
+		
+		Customer customer = new Customer(); //örneğini oluşturmak, instance oluşturmak, instance creation
+		customer.FirstName = "Sude";
+		customer.LastName = "Küçüker";
+		customer.id = 8;
+		customer.NationalIdentity = "11122233345";
+		customer.City = "Mersin";
+		
+		
+//		customer.setFirstName("Sude");
+//		System.out.println(customer.getFirstName()); // getter ve setter kullanırsak bu şekilde main'de de get ve set kullanmalıyız. Private'larda zorunludur.
+		
+		CustomerManager customerManager = new CustomerManager(); 
+		customerManager.Save(customer);
+		
+		
+	}
+
+}

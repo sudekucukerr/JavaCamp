@@ -1,0 +1,16 @@
+package homeworkExercises.week3;
+
+public class CreditManager {
+	
+	//SOLID araştır. Aşağıdaki yazım iş görür ama solid prensiplerine uygun değil.
+	
+	public void Calculate() {
+		System.out.println("Hesaplandı");
+	}
+	
+	public void Save(Customer customer) {
+		System.out.println("Kredi verildi.");
+	}
+		
+
+}

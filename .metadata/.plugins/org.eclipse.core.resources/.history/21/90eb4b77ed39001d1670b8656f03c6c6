@@ -1,0 +1,6 @@
+package oop1;
+
+public class CorporateCustomer {
+	private String firstName;
+	private String lastName;
+}

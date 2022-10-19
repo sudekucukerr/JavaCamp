@@ -1,0 +1,5 @@
+package dataAcces.CategoryDataAccess;
+
+public interface ICourseDao {
+
+}

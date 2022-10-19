@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class SekilCikartma {
+
+	public static void main(String[] args) {
+		
+		int uzunluk,i,j;
+		Scanner scanf = new Scanner(System.in);
+		
+		System.out.println("Uzunluk Giriniz: ");
+		uzunluk = scanf.nextInt (); 
+		
+		for(i = 0; i < uzunluk; i++) {
+			System.out.print("");
+			
+			for(j = 0; j<i; j++ ) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		
+
+	}
+
+}

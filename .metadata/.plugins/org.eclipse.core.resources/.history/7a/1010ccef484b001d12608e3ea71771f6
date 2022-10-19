@@ -1,0 +1,18 @@
+package homeworkExercises.week3;
+
+public class MilitaryCreditManager implements extends BaseCreditManager implements ICreditManager {
+
+	@Override
+	public void Calculate() {
+		//hesaplamalar
+		System.out.println("Asker Kredisi hesaplandı.");
+		
+	}
+
+	@Override
+	public void Save() {
+		System.out.println("Asker Kredisi kaydedildi.");
+		
+	}
+
+}

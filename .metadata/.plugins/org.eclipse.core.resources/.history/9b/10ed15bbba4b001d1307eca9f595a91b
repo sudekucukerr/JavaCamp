@@ -1,0 +1,10 @@
+package homeworkExercises.week3;
+
+public class Person extends Customer {
+	
+	String FirstName;
+	String LastName;
+	String NationalIdentity;
+	
+	
+}

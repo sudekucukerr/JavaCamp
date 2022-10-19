@@ -1,0 +1,29 @@
+package homeworkExercises.week3;
+
+public class CustomerManager {
+	
+    Customer customer;
+	ICreditManager creditManager;
+	
+	
+	public CustomerManager(Customer customer, ICreditManager creditManager) {
+		this.customer = customer;
+		this.creditManager=creditManager;
+	}
+	
+	public void Save() {
+		System.out.println("Müşteri kaydedildi: ");
+	}
+
+	public void Delete() {
+		System.out.println("Müşteri silindi: ");
+	}
+	
+	public void GiveCredit() {
+		
+		System.out.println("Kredi verildi.");
+		creditManager.Calculate();
+	}
+	
+	
+}

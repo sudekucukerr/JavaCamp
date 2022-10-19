@@ -1,0 +1,13 @@
+package homeworkExercises.week3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		CreditManager creditManager = new CreditManager(); //CreditManager creditManager kısmı stack'te tutulur. New'lediğimiz zaman Heap'e aktarılır.
+		Customer customer = new Customer(); 
+		
+		customer.FirstName = "Sude";
+	}
+
+}

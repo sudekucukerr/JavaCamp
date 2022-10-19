@@ -1,0 +1,15 @@
+package business;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import dataAcces.CategoryDataAccess.ICategoryDao;
+import loggers.ILogger;
+
+public class CategoryManager {
+	
+	private ICategoryDao categoryDao;
+	private ILogger[] loggers;
+	public List <String> listCategoryName = new ArrayList<String>();
+
+} 

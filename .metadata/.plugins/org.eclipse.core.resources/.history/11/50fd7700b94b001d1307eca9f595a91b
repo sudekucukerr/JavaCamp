@@ -1,0 +1,10 @@
+package homeworkExercises.week3.Inheritance;
+
+public class Employee {
+	int id;
+	String firstName;
+	String lastName;
+	int age;
+	double salary;
+	String email;
+}

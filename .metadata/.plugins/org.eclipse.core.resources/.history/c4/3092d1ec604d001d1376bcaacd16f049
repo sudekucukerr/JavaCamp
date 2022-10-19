@@ -1,0 +1,13 @@
+
+public class CustomerManager {
+	
+	ICustomerDal customerDal;
+	public void add() {
+		//Codes about Business, writes here.
+		
+		customerDal.Add();
+		
+		
+		
+	}
+}

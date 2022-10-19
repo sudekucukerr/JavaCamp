@@ -1,0 +1,5 @@
+package dataAcces.CourseDataAccess;
+
+public interface ICourseDao {
+
+}

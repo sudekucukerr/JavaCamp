@@ -1,0 +1,7 @@
+package oop1;
+
+public class individualCustomer extends Customer{
+	private String firstName;
+	private String lasName;
+		
+}

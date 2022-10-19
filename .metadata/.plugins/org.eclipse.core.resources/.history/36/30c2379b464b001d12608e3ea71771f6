@@ -1,0 +1,9 @@
+package homeworkExercises.week3;
+
+public interface ICreditManager {
+	
+	//İnterface'ler referans tiptir.
+	
+	void Calculate();
+	void Save();
+}

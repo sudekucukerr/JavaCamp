@@ -1,0 +1,14 @@
+package homeworkExercises.week3;
+
+public class Customer {
+	
+	int id;
+	String FirstName;
+	String LastName;
+	String NationalIdentity;
+	
+	// Private olduğunda getter ve setter yapmamız gerekir. Bunu yaptığımızda Main'de de get ve set kullanmalıyız.
+	
+	
+
+}

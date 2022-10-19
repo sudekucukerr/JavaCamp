@@ -1,0 +1,11 @@
+
+public abstract class GameCalculator {
+	
+	public void Calculate() {
+		System.out.println("Your Score: 100");
+	}
+	
+	public void gameOver() {
+		System.out.println("Game Over.");
+	}
+}
